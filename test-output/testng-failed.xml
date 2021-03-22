@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.pages.AddToCart">
+      <class name="com.qa.pages.LoginWithDriverManager">
         <methods>
-          <include name="AddToCartItem"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.qa.pages.AddToCart -->
+      </class> <!-- com.qa.pages.LoginWithDriverManager -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

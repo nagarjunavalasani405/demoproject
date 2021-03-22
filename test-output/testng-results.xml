@@ -2,49 +2,105 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40858" started-at="2021-03-16T14:17:04Z" finished-at="2021-03-16T14:17:45Z">
+  <suite name="Default suite" duration-ms="5151" started-at="2021-03-22T07:18:21Z" finished-at="2021-03-22T07:18:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40858" started-at="2021-03-16T14:17:04Z" finished-at="2021-03-16T14:17:45Z">
-      <class name="com.qa.pages.AddToCart">
-        <test-method status="FAIL" signature="AddToCartItem()[pri:0, instance:com.qa.pages.AddToCart@29ee9faa]" name="AddToCartItem" duration-ms="40821" started-at="2021-03-16T14:17:05Z" finished-at="2021-03-16T14:17:45Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test name="Default test" duration-ms="5151" started-at="2021-03-22T07:18:21Z" finished-at="2021-03-22T07:18:26Z">
+      <class name="com.qa.pages.LoginWithDriverManager">
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.qa.pages.LoginWithDriverManager@3ffc5af1]" name="login" duration-ms="5106" started-at="2021-03-22T07:18:21Z" finished-at="2021-03-22T07:18:26Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#billing\-address\-select"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 88.0.4324.104 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-PC', ip: '192.168.43.22', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: acebc3112e10365b9ae77ae08d808a3e
-*** Element info: {Using=id, value=billing-address-select}]]>
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00AAE7D3+124883]
+Ordinal0 [0x00AAE7B1+124849]
+GetHandleVerifier [0x00CF8688+193832]
+GetHandleVerifier [0x00D13AC5+305509]
+GetHandleVerifier [0x00D1021B+291003]
+GetHandleVerifier [0x00D0E0AC+282444]
+GetHandleVerifier [0x00D34A90+440624]
+GetHandleVerifier [0x00D347FC+439964]
+GetHandleVerifier [0x00D3154B+426987]
+GetHandleVerifier [0x00D14FFD+310941]
+GetHandleVerifier [0x00D15D8E+314414]
+GetHandleVerifier [0x00D15D19+314297]
+GetHandleVerifier [0x00DD31EC+1089676]
+GetHandleVerifier [0x00DD17C9+1082985]
+GetHandleVerifier [0x00DD13A3+1081923]
+GetHandleVerifier [0x00ECD9FD+2115741]
+Ordinal0 [0x00BFB82E+1488942]
+Ordinal0 [0x00B95A7D+1071741]
+Ordinal0 [0x00B9559B+1070491]
+Ordinal0 [0x00B954B1+1070257]
+Ordinal0 [0x00BCFF53+1310547]
+BaseThreadInitThunk [0x7668338A+18]
+RtlInitializeExceptionChain [0x76EE9F72+99]
+RtlInitializeExceptionChain [0x76EE9F45+54]
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#billing\-address\-select"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 88.0.4324.104 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-PC', ip: '192.168.43.22', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: acebc3112e10365b9ae77ae08d808a3e
-*** Element info: {Using=id, value=billing-address-select}
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00AAE7D3+124883]
+Ordinal0 [0x00AAE7B1+124849]
+GetHandleVerifier [0x00CF8688+193832]
+GetHandleVerifier [0x00D13AC5+305509]
+GetHandleVerifier [0x00D1021B+291003]
+GetHandleVerifier [0x00D0E0AC+282444]
+GetHandleVerifier [0x00D34A90+440624]
+GetHandleVerifier [0x00D347FC+439964]
+GetHandleVerifier [0x00D3154B+426987]
+GetHandleVerifier [0x00D14FFD+310941]
+GetHandleVerifier [0x00D15D8E+314414]
+GetHandleVerifier [0x00D15D19+314297]
+GetHandleVerifier [0x00DD31EC+1089676]
+GetHandleVerifier [0x00DD17C9+1082985]
+GetHandleVerifier [0x00DD13A3+1081923]
+GetHandleVerifier [0x00ECD9FD+2115741]
+Ordinal0 [0x00BFB82E+1488942]
+Ordinal0 [0x00B95A7D+1071741]
+Ordinal0 [0x00B9559B+1070491]
+Ordinal0 [0x00B954B1+1070257]
+Ordinal0 [0x00BCFF53+1310547]
+BaseThreadInitThunk [0x7668338A+18]
+RtlInitializeExceptionChain [0x76EE9F72+99]
+RtlInitializeExceptionChain [0x76EE9F45+54]
+
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.qa.pages.AddToCart.AddToCartItem(AddToCart.java:92)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.qa.pages.LoginWithDriverManager.login(LoginWithDriverManager.java:19)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -72,11 +128,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddToCartItem -->
-      </class> <!-- com.qa.pages.AddToCart -->
+        </test-method> <!-- login -->
+      </class> <!-- com.qa.pages.LoginWithDriverManager -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
